@@ -1,0 +1,16 @@
+/* #checkout-container {
+  display: flex;
+  height: 700px;
+  width: 1300px;
+} */
+
+#checkout-container > div > form {
+  display: flex;
+  gap: 5px;
+  margin-left: 20px;
+}
+
+
+h1 {
+  text-align: center;
+}
