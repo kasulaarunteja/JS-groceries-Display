@@ -1,0 +1,18 @@
+#cart {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 25px;
+}
+
+
+#cart > img {
+  height: 50px;
+  width: 25px;
+}
+
+
+#cart > div {
+  height: 15%;
+  width: 100px;
+  background-color: 1px soild green;
+}
