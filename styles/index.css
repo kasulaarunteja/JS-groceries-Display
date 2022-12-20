@@ -10,44 +10,39 @@
   float: right;
 }
 
-#navbar div  {
+#navbar div {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-div  a {
-    /* display: block; */
-    color: white;
-    /* text-align: center;
+div a {
+  /* display: block; */
+  color: white;
+  /* text-align: center;
     padding: 14px 16px;
     text-decoration: none; */
 }
 
-#items{
+#items {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-gap: 25px;
 }
 
-.item{
+.item {
   height: 150%;
   width: 200px;
   background-color: 1px soild green;
-
 }
 
-.item>img{
+.item > img {
   height: 50px;
 }
 
-.item>div{
+.item > div {
   height: 100%;
   width: 150px;
   background-color: 1px soild green;
 }
-
-
-
-
